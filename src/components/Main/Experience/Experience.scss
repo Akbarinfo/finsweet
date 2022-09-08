@@ -313,8 +313,17 @@
     }
 
     .experience__imgbox {
-      max-width: 438px;
-      max-height: 458px;
+      width: 300px;
+      height: 315px;
+
+      &::before {
+        width: 80px;
+        height: 77px;
+        top: -39px;
+        right: -38px;
+        background-size: cover; 
+      }
+
     }
   }
 }
