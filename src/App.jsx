@@ -1,9 +1,20 @@
-import React from "react"
+import React from "react";
+import Header from "./components/Header";
+import Hero from "./components/Hero";
+import MainAbout from "./components/Main/About";
+import Experience from "./components/Main/Experience";
+import MainServices from "./components/Main/Services";
 
 function App() {
   return (
-    <h1>salom</h1>
-  )
+    <>
+      <Header />
+      <Hero />
+      {/* <MainAbout />
+      <MainServices />
+      <Experience /> */}
+    </>
+  );
 }
 
-export default App
+export default App;

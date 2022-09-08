@@ -1,4 +1,4 @@
-@import './assets/style/_fonts.scss';
+@import "./assets/style/_fonts.scss";
 
 *,
 *::after,
@@ -24,12 +24,11 @@ a {
   text-decoration: none;
 }
 
-
 body {
   display: flex;
   flex-direction: column;
   background-color: #fff;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
   min-height: 100vh;
 }
@@ -43,7 +42,14 @@ html {
 }
 
 .container {
-  max-width: 1440px;
-  padding: 0;
+  max-width: 1300px;
+  padding: 0 10px;
   margin: 0 auto;
 }
+
+/* @media screen and (max-width: 850px) {
+  body {
+    padding-top: 80px;
+  }
+
+} */
