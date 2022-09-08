@@ -47,12 +47,9 @@ export default function Experience() {
           <div className="experience__imgbox">
             <img className="experience__img" src={one} alt="bg" />
           </div>
-          <p className="experience__circle">
-            <img src={circle} alt="circle" />
-          </p>
         </div>
 
-        <div className="experience__businessbox">
+        {/* <div className="experience__businessbox">
           <div className="experience__btnbox">
             <button className="experience__btn experience__btn-active">
               Business strategy
@@ -80,7 +77,7 @@ export default function Experience() {
               <img className="experience__himg" src={two} alt="himg" />
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );

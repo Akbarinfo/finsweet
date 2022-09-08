@@ -71,7 +71,6 @@
     width: 638px;
     height: 670px;
     border-radius: 20px;
-    overflow: hidden;
 
     &::after {
       content: "";
@@ -85,19 +84,24 @@
       mix-blend-mode: multiply;
       border-radius: 20px 0px 0px 20px;
     }
+
+    &::before {
+      content: "";
+      position: absolute;
+      display: block;
+      width: 116px;
+      height: 113px;
+      top: -57px;
+      right: -58px;
+      background-image: url("../../../assets/images/Experience/Circle.svg");
+      background-repeat: no-repeat;
+    }
   }
 
   &__img {
     width: 100%;
+    border-radius: 20px;
     object-fit: cover;
-  }
-
-  &__circle {
-    width: 116px;
-    height: 113px;
-    position: absolute;
-    top: -8.7%;
-    right: -4.4%;
   }
 
   //section 2
@@ -209,5 +213,108 @@
   &__himg {
     width: 100%;
     object-fit: cover;
+  }
+}
+
+
+@media screen and (max-width: 1325px) {
+  .experience {
+
+    .experience__left {
+      width: 500px;
+    }
+
+    .experience__title {
+      width: 500px;
+    }
+  }
+}
+
+@media screen and (max-width: 1158px) {
+  .experience {
+
+    .experience__left {
+      width: 480px;
+    }
+
+    .experience__title {
+      width: 480px;
+    }
+
+    .experience__imgbox {
+      width: 538px;
+      height: 563px;
+    }
+
+  }
+}
+
+
+@media screen and (max-width: 1028px) {
+  .experience {
+
+    .experience__imgbox {
+      width: 438px;
+      height: 458px;
+    }
+
+  }
+}
+
+@media screen and (max-width: 937px) {
+  .experience {
+
+    .experience__left {
+      width: 400px;
+    }
+
+    .experience__title {
+      width: 400px;
+    }
+
+  }
+}
+
+
+@media screen and (max-width: 850px) {
+  .experience {
+
+    padding: 48px 15px;
+
+    &__box {
+      flex-direction: column;
+    }
+
+    .experience__left {
+      width: 100%;
+      margin-bottom: 70px;
+    }
+
+    .experience__title {
+      width: 100%;
+    }
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .experience {
+    .experience__title {
+      font-size: 32px;
+      line-height: 40px
+    }
+
+    .experience__left {
+      width: 100%;
+      margin-bottom: 70px;
+    }
+
+    .experience__title {
+      width: 100%;
+    }
+
+    .experience__imgbox {
+      max-width: 438px;
+      max-height: 458px;
+    }
   }
 }

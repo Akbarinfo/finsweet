@@ -12,7 +12,7 @@ function App() {
       <Hero />
       <MainAbout />
       <MainServices />
-      {/* <Experience /> */}
+      <Experience />
     </>
   );
 }
