@@ -47,9 +47,9 @@ html {
   margin: 0 auto;
 }
 
-/* @media screen and (max-width: 850px) {
+@media screen and (max-width: 850px) {
   body {
     padding-top: 80px;
   }
 
-} */
+}
