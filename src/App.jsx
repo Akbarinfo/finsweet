@@ -11,8 +11,8 @@ function App() {
       <Header />
       <Hero />
       <MainAbout />
-      {/* <MainServices />
-      <Experience /> */}
+      <MainServices />
+      {/* <Experience /> */}
     </>
   );
 }
