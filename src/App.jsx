@@ -10,8 +10,8 @@ function App() {
     <>
       <Header />
       <Hero />
-      {/* <MainAbout />
-      <MainServices />
+      <MainAbout />
+      {/* <MainServices />
       <Experience /> */}
     </>
   );
